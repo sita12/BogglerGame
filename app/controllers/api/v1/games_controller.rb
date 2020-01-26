@@ -1,6 +1,9 @@
 class Api::V1::GamesController < ApplicationController
     def new
-        array = ["a", "e", "i", "o", "u", "s", "d", "t", "m", "l", "y", "a", "e", "i", "o", "u", "m", "n", "a", "e", "i", "o", "u"]
+        array = ["a", "e", "i", "o", "u", "s", "d", "t", "t", "l", "y", "a", "e",
+         "i", "p", "u", "m", "n", "f", "e", "t", "o", "h", "a", "r", "g", "a",
+        "i", "i", "o", "t", "o", "u", "r", "a", "e", "f", "s", "a", "y", "e", "a", "r",
+        "c", "t", "e", "c", "k", "y", "m", "a", "r", "k"]
         new_array = []
         for a in 1..16 do      
             new_array.push(array.sample)             
